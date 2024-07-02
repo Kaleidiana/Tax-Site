@@ -1,0 +1,339 @@
+.heading {
+   text-align: center;
+   padding: 20px; 
+   margin: 0 auto; 
+   width: 50%; 
+}
+
+.heading h3 {
+   margin: 0; /* Remove default margin for the heading */
+}
+nav {
+   background-color: #3498db; /* Bluish background color */
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+}
+li {
+   float: left;
+}
+li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+li a:hover {
+   background-color: #111;
+}
+
+/* Style for main content sections */
+.parent-accountintro{
+   height: 400px;
+   
+}
+.child-accountintro01{
+   float: left;
+  
+   width: 50%;
+   margin-right: 2px;
+   
+   display:inline-block;
+
+   
+}
+.child-accountintro02{
+
+   float:right
+ 
+   width: 50%;
+   text-align: center;
+   display :inline-block;
+   font-size: xx-large;
+   height: 400px;
+}
+.parent-community{
+  height: 270px;
+}
+.child-community{
+   float: right;
+   display: inline-block;
+   width: 50%;
+   height: 270px;
+  
+}
+.child-community01{
+   float: left;
+   display: inline-block;
+   width:50%;
+   text-align: center;
+   font-size:larger;
+   height: 270px;
+}
+.parent-Management{
+   height: 400px;
+   
+}
+.child-management{
+   float: left;
+   width: 600px;
+
+}
+.child-management01{
+   display: inline-block;
+   width: 50%;
+   height: 300px;
+}
+.compliance{
+   float: left;
+   width: 48%;
+   margin-right: 2px;
+
+}
+.compliance01{
+   display: inline-block;
+   width: 40%;
+   margin-left: 150px;
+}
+.compliance01 p{
+   font-size: xx-large;
+   font-weight: 600;
+   text-align: center;
+   
+
+}
+.compliance01 ul{
+   background-color: white;
+   text-align: centre;
+   text-decoration: dotted;
+   font-size: larger;
+   height: 350px;
+   margin-left: 50px;
+}
+.payroll{
+   float: left;
+   width:50%
+
+}
+.payroll01{
+   display: inline-block;
+   text-align: centre;
+   margin-left: 18%;
+   
+}
+.payroll01 ul{
+   background-color: white;
+   text-align: centre;
+   margin-left: 150px;
+   font-size: x-large;
+}
+.businessreg{
+   float: left;
+   width: 30%;
+   margin-right: 2px;
+   margin-bottom: 70px;
+
+}
+.businessreg01{
+   display: inline-block;
+   width:65% ;
+   margin-bottom: 70px;
+}
+.ecitizen{
+   float: right;
+   width: 65%;
+   margin-left: 2px;
+}
+.ecitizen01{
+   display: inline-block;
+   font-size: larger;
+   text-align: center;
+   width: 30%;
+   height: 200px;
+
+}
+.etims{
+   float: left;
+   width: 65%;
+   margin-right: 2px;
+
+  
+}
+.etims01{
+   display: inline-block;
+   font-size: larger;
+   text-align: center;
+   width: 30%;
+   height: 200px;
+
+  
+}
+/* Reset default margin and padding */
+body, h2, p, label, input, button {
+   margin: 0;
+   padding: 0;
+ }
+ 
+ /* Style for the registration form */
+ .registration-container {
+   max-width: 400px;
+   margin: 0 auto;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+ }
+ 
+ h2 {
+   text-align: center;
+   margin-bottom: 20px;
+ }
+ 
+ .form-group {
+   margin-bottom: 15px;
+ }
+ 
+ label {
+   display: block;
+   font-weight: bold;
+   margin-bottom: 5px;
+ }
+ 
+ input[type="text"],
+ input[type="email"],
+ input[type="tel"] {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+ }
+ 
+ button {
+   width: 100%;
+   padding: 10px;
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
+ button:hover {
+   background-color: #0056b3;
+ }
+ 
+
+
+/* Style for the footer */
+
+
+ .footer{
+   padding: 15px;
+   border-radius: 2px;
+   width: 100% auto;
+   height: 60px auto;
+   color: white;
+   background-color: green;
+   margin-top: 10%;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ }
+
+
+ .footer1{
+   padding: 15px;
+   border-radius: 2px;
+   width: 100% auto;
+   height: 60px auto;
+   color: white;
+   background-color: green;
+   margin-top: 35%;
+
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+
+   .footer2{
+      padding: 15px;
+      border-radius: 2px;
+      width: 150%;
+      height: 60px auto;
+      color: white;
+      background-color: green;
+      margin-top: 35%;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .html,
+ .css,
+ .javascript,
+ .react {
+   width: 50%;
+   border-radius: 5px;
+   margin: 14px;
+   padding: 10px;
+   border: 2px solid #CCC;
+ }
+/*balance*/
+   
+   
+   .balance div{
+      display: flex;
+      flex-direction:row ;
+      flex-wrap: wrap;
+      display: inline-block;
+   }
+   .sheet{
+      float:right;
+      width: 45%;
+      
+   }
+   /*analyical*/
+   
+
+   .analysis img{
+      width: 50%;
+      float: right;
+   }
+   .paul{
+      width:38%;
+      text-align: center;
+      display: inline-block;
+      float: right;
+
+   }
+   .paul ul{
+      background-color: azure;
+      
+   }
+   .paul li{
+      font-size:x-large;
+      text-decoration:dashed;
+
+
+   }
+   
+.email {
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #0ef0f0; 
+   transition: color 0.3s ease;
+   text-decoration: none; 
+}
+
+/* Hover state */
+.email:hover {
+   color: #cccce7; 
+   text-decoration: underline; 
+}
+
+/* Active state */
+.email:active {
+   color: #cccce7; 
+}
+
+/* // //Pension Contribution
+// let pensionContribution = pensionContribution + nssfTier1 + nssfTier2;(or 30%gross pay)
+whenver i put gross pay as 120000 and pension as 20000, i get PAYE as 21210.35 and when i put the same values for arens calculator, their paye becomes 21858.35 a differnce of 648ksh ,and when the net pay is 73129.65 while for aren calculator it bcms 72481.65 also a difference of 648 now i was wondering where that difference was coming from help me out */
